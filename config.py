@@ -1,4 +1,5 @@
-token = "5882372580:AAFsO9afojg0GBTohToDvwtfmgrl8KkCHUY"
+import os
+token = os.environ['TELEGRAM_TOKEN']
 log_level = "INFO"
 eng_dict = {
     "a": "ф", "b": "и", "c": "с", "d": "в", "e": "у", "f": "а", "g": "п", "h": "р", "i": "ш", "j": "о", "k": "л",
