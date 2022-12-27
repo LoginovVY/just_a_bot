@@ -60,7 +60,7 @@ def detect_lang(text):
 
 
 def convert_layout(message):
-    converted_text = ''.join([detect_lang(message.text).get(symbol.lower(), symbol) for symbol in message.text])
+    converted_text = ''.join([detect_lang(message.text).get(symbol, symbol) for symbol in message.text])
     return converted_text
 
 
