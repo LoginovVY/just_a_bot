@@ -44,7 +44,7 @@ async def activate_echo(message: types.Message):
 
 @dp.message_handler(commands="help")
 async def write_help(message: types.Message):
-    await message.answer("Тут нужно описание работы с ботом")
+    await message.answer("Этот бот нужен для образовательных целей, внём я учусь создавать разный не очень полезный функционал, например, change_layout меняет раскладку клавиатуры у текста")
 
 
 def detect_lang(text):
